@@ -6,6 +6,9 @@ Pages have been initialized, Just go to following links:
 https://pradyum619.github.io/web/html/
 
 2.Pure HTML and CSS
-.
 
 https://pradyum619.github.io/web/htmlCss/
+
+3. CSE Byte Android app Landing Page
+
+https://pradyum619.github.io/web/cseByteLandingPage/
