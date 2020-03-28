@@ -3,7 +3,7 @@ Web Development Practice
 Pages have been initialized, Just go to following links:
 1. Pure HTML Website
 
-https://pradyum619.github.io/web/html/
+<a href="https://pradyum619.github.io/web/html/">Pure Html site</a>
 
 2.Pure HTML and CSS
 
