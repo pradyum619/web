@@ -1,4 +1,4 @@
-# web
+# Web Practice
 
 Web Development Practice
 Pages have been initialized, Just go to following links:
