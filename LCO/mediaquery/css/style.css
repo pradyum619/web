@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("../img/bg.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0 5%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+}
+
+nav .menu-icon {
+  display: none;
+}
+
+.brand {
+  flex: 1;
+  margin: auto;
+  align-items: center;
+}
+
+.brand-img {
+  height: 100px;
+}
+nav .nav-items {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav .nav-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.sign-up-btn {
+  background: #e03b8b;
+  border: none;
+  font-size: 22px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  height: 80%;
+  display: flex;
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  flex: 0.5;
+  min-height: 100%;
+}
+
+.col-1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #fff;
+}
+
+.col-1 p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.col-1 h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.google-img {
+  height: 90px;
+}
+.col-2 {
+  flex: 0.5;
+  overflow: hidden;
+}
+
+.phone-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80%;
+}
+
+/* Tablet size */
+@media screen and (max-width: 800px) {
+  nav .nav-items {
+    display: none;
+  }
+  nav .menu-icon {
+    margin: auto;
+    display: block;
+  }
+
+  nav .menu-icon i {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .phone-img {
+    height: 60%;
+  }
+}
+
+/* mobile size */
+@media screen and (max-width: 600px) {
+  .brand-img {
+    height: 60px;
+    margin: auto;
+  }
+
+  nav .nav-items {
+    display: none;
+  }
+  nav .menu-icon {
+    margin: auto;
+    display: block;
+  }
+
+  nav .menu-icon i {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .phone-img {
+    display: none;
+  }
+
+  .col-1 p {
+    font-size: 16px;
+  }
+  .col-1 h1 {
+    font-size: 28px;
+  }
+
+  .google-img {
+    height: 50px;
+  }
+}

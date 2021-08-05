@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Oswald:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+div {
+  margin: auto;
+  margin-top: 18%;
+}
+h1 {
+  text-align: center;
+  height: auto;
+  font-family: "Oswald";
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+
+span {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 72px;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+}
+
+p {
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 8px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: block;
+  margin: auto;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.lco {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+  color: #fff;
+}
