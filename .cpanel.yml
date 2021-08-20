@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ewarar4rjep9/public_html/repositories/web/
+    - /bin/cp -R * $DEPLOYPATH
